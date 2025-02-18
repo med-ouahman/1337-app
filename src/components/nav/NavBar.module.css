@@ -1,15 +1,19 @@
 .navBar
 {
-    width: 90%;
-    padding: 15px;
+    width: 98%;
+    padding: 1.2rem;
     margin: auto;
-    height: 20px;
-    background: #6d5858;
+    height: 15px;
+    background: #2a3742;
+    box-shadow: rgba(0, 0, 0, 0.281) 0px 3px 8px;
     display: flex;
     justify-content: space-between;
+    font-family: sans-serif;
+    font-style: normal;
     align-items: center;
-    border-radius: 7px 5px 5px 7px;
+    border-radius: 0  0 10px 10px ;
 }
+
 .navBar ul
 {
     display: flex;
@@ -17,10 +21,68 @@
     align-items: center;
     text-decoration: none;
     list-style: none;
+    color: #ffffff;
     gap: 1.5rem;
+}
+.navBar ul li
+{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: normal;
+    transition: all ease 0.5s;
+}
+
+.navBar ul li:hover
+{
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all ease 0.4s;
+    font-size: 16px;
+    /* border: 2px solid transparent; */
+    padding: 1rem;
+    background: #12181d;
 }
 .navBar a
 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: normal;
     text-decoration: none;
     color: black;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7rem;
+    width: 100px;
+    height: 100px;
+}
+.logo img
+{
+    width: 90px;
+    height: 90px;
+}
+.navBar .login
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 2.5em;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    background: rgba(100, 100, 100, 0.3);
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 8rem;
+    transition: all ease 0.6s;
+}
+.navBar .login:hover
+{
+    background: #12181d;
+    letter-spacing: 1px;
+    box-shadow: rgba(0, 0, 0, 0.61) 0px 3px 8px;
 }

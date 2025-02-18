@@ -1,16 +1,17 @@
 import style from "./NavBar.module.css";
+import Logo from "../../../public/imges/Untitled_design-removebg-preview.png"
 
 function NavBar() {
     return (
 		<div className={style.parent}>
 			<div className={style.navBar}>
-				<a href="#">logo</a>
+				<a className={style.logo} href="#"> <img src={Logo} alt="" /></a>
 				<ul>
 				<li>Home</li>
-				<li>news</li>
-				<li>experiences</li>
+				<li>News</li>
+				<li>Experiences</li>
 				<li>Questions</li>
-				<a href="#">log in</a>
+				<a className={style.login} href="#">Log in</a>
 				</ul>
 			</div>
 		</div>
