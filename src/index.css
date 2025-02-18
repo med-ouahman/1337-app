@@ -1,0 +1,15 @@
+div {
+  margin: auto;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 10rem;
+  color: blueviolet;
+}
+
+p {
+  border: 5px solid;
+  padding: 2rem;
+  animation: hello 3s ease-in-out  infinite;
+}
