@@ -1,5 +1,5 @@
 import style from "./NavBar.module.css";
-import Logo from "../../../public/imges/Untitled_design-removebg-preview.png"
+import Logo from "../../../public/imges/Untitled_design-removebg-preview.png";
 
 function NavBar() {
     return (
