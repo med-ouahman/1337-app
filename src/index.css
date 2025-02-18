@@ -6,3 +6,9 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
+#root {
+  background: #161616;
+  color: #fff;
+  position: relative;
+}

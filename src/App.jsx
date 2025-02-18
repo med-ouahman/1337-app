@@ -4,8 +4,11 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Homepage from "./pages/homepage/Homepage";
 import Questions from "./pages/questions/Questions";
 import News from "./pages/news/News";
+import Experiences from "./pages/experiences/Experiences"; 
 import Login from "./pages/login/Login";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
+
+// 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
 
 function App() {
 
@@ -34,9 +37,14 @@ function App() {
 				/>
 
 				<Route
+					path="experiences"
+					element={<Experiences />}
+				/>
+				<Route
 					path="*"
 					element={<PageNotFound />}
 				/>
+
 			</Routes>
 		</BrowserRouter>
 	);
