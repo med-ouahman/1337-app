@@ -1,11 +1,10 @@
 .navBar
 {
     width: 100%;
-    /* padding: 1rem; */
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
     margin: auto;
-    height: 15px;
+    height: 3rem;
     background: #2a3742;
     box-shadow: rgba(0, 0, 0, 0.281) 0px 3px 8px;
     display: flex;
@@ -13,7 +12,7 @@
     font-family: sans-serif;
     font-style: normal;
     align-items: center;
-    border-radius: 0  0 10px 10px ;
+    border-radius: 0  0 10px 10px;
 }
 
 .navBar ul
@@ -26,6 +25,11 @@
     color: #ffffff;
     gap: 1.5rem;
 }
+.navBar ul svg {
+    margin-right: 6rem;
+    font-size: 19px;
+}
+
 .navBar ul li
 {
     font-size: 16px;
@@ -67,7 +71,7 @@
     width: 90px;
     height: 90px;
 }
-.navBar .login
+.login
 {
     display: flex;
     justify-content: center;
@@ -85,6 +89,17 @@
 .navBar .login:hover
 {
     background: #12181d;
+    color: #ffffff;
     letter-spacing: 1px;
     box-shadow: rgba(0, 0, 0, 0.61) 0px 3px 8px;
+}
+@media screen and (max-width: 800px) {
+    .sideBar
+    {
+        display: none;
+    }
+    #sideBar
+    {
+        display: none;
+    }   
 }

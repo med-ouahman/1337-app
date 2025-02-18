@@ -3,10 +3,10 @@
     margin: 0;
     top: 0;
     font-family: "Poppins", serif;
+    box-sizing: border-box;
 }
 div {
     height: 100vh;
     width: 100%;
-    /* padding-top: 2px; */
     background: #333;
 }
