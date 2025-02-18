@@ -61,25 +61,24 @@
 
 .heroSection a span:nth-child(2n) {
 	transform: translateY(5px);
-	transition: transform 400ms linear;
+	animation: upp 400ms ease-in 450ms forwards;
 }
 
-.heroSection a:hover span:nth-child(2n) {
-	transform: translateY(0px);
-	transition: transform 400ms linear forwards;
-}
+
 
 
 .heroSection a span:nth-child(2n + 1) {
-	transition: transform 400ms linear ;
+	animation: upp 400ms ease-in 450ms forwards;
 	transform: translateY(-5px);
 }
 
-
-.heroSection a:hover span:nth-child(2n + 1) {
-	transition: transform 400ms linear forwards;
-	transform: translateY(0px);
+@keyframes upp {
+	to {
+		transform: translateY(0px);
+	}
 }
+
+
 
 
 @media (max-width:600px) {

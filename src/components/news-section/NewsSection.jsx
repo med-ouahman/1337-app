@@ -13,7 +13,7 @@ function NewsSection() {
   return (
 		<section className={styles.newsSection}>
 	
-			<h2>Latest News from 1337</h2>
+			<h2>Latest News</h2>
 			<div className={styles.newsContainer}>
 				<NewsItem />
 				<NewsItem />
