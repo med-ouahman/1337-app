@@ -1,10 +1,10 @@
-
-
+import "./index.css";
+import NavBar from "./components/nav/NavBar";
 function App() {
 
   return (
     <div>
-     <p> celitic++</p>
+      <NavBar></NavBar>
     </div>
   );
 }

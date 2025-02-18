@@ -1,15 +1,12 @@
-div {
-  margin: auto;
-  text-align: center;
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  font-size: 10rem;
-  color: blueviolet;
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+    font-family: "Poppins", serif;
 }
-
-p {
-  border: 5px solid;
-  padding: 2rem;
-  animation: hello 3s ease-in-out  infinite;
+div {
+    height: 100vh;
+    width: 100%;
+    padding-top: 2px;
+    background: #333;
 }
