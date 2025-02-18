@@ -11,7 +11,7 @@ import NewsItem from "./NewsItem";
 function NewsSection() {
 	
   return (
-		<section className={styles.newsSection}>
+		<section className={styles.newsSection} id="news">
 	
 			<h2>Latest News</h2>
 			<div className={styles.newsContainer}>

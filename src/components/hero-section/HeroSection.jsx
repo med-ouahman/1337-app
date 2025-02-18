@@ -1,8 +1,5 @@
 import styles from "./HeroSection.module.css";
 
-
-import { NavLink } from "react-router";
-
 function Span({ char }) {
 
 	return (
@@ -20,9 +17,9 @@ function HeroSection() {
 		<section className={styles.heroSection}>
 			<div className={styles.back}></div>
 			<h1>Welcome to 1337++, Your guide for the 1337 school</h1>
-			<NavLink>
+			<a href="#news">
 				{txt.split('').map(char => char !== ' ' ? <Span char={char} />: <pre> </pre>)}
-			</NavLink>
+			</a>
 		</section>
 	);
 }

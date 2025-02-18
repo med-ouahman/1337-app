@@ -39,7 +39,7 @@
 }
 
 .newsContainer .newsItem:hover {
-	transform: scale(1.1);
+	transform: scale(1.03);
 	transition: transform 200ms linear;
 }
 
