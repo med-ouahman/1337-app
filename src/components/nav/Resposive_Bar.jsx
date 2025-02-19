@@ -1,12 +1,11 @@
 import style from "./Resposive_Bar.module.css";
-import Logo from "../../../public/imges/Untitled_design-removebg-preview.png";
 
 function ResposiveBar({ setShowNavBar })
 {
     return (
             <div className={style.resBar}>
                 <div className={style.logo_b}>
-                <a className={style.logo1} href="#"> <img src={Logo} alt="" /></a>
+                <a className={style.logo} href="#"><p className={style.logop}>1337++</p></a>
                 <button onClick={() => setShowNavBar(false)}>&times;</button>
                 </div>
                 <ul>

@@ -1,18 +1,18 @@
 .navBar
 {
     width: 100%;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
     margin: auto;
     height: 3rem;
     background: #2a3742;
     box-shadow: rgba(0, 0, 0, 0.281) 0px 3px 8px;
     display: flex;
     justify-content: space-between;
-    font-family: sans-serif;
     font-style: normal;
     align-items: center;
     border-radius: 0  0 10px 10px;
+    font-family: "Quantico";
 }
 
 .navBar ul
@@ -33,9 +33,9 @@
 .navBar ul li
 {
     font-size: 16px;
-    font-family: sans-serif;
     font-style: normal;
     transition: all ease 0.5s;
+    font-family: "Quantico";
 }
 
 .navBar ul li:hover
@@ -44,35 +44,36 @@
     letter-spacing: 1px;
     transition: all ease 0.4s;
     font-size: 16px;
-    /* border: 2px solid transparent; */
     padding: 1rem;
-    background: #12181d;
+    color:  rgb(45, 107, 43);
+    border-bottom: 2px solid  rgb(45, 107, 43);
 }
 .navBar a
 {
     color: #ffffff;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: "Quantico";
     font-style: normal;
     text-decoration: none;
-    color: black;
+    
 }
 .logo
 {
+    font-family: "Quantico";
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 7rem;
-    width: 100px;
-    height: 100px;
+    width: 10rem;
+    height: 3rem;
 }
-.logo img
+.logop
 {
-    width: 90px;
-    height: 90px;
+    font-size: 1.5rem;
 }
 .login
 {
+    font-family: "Quantico";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +81,7 @@
     height: 2.5em;
     border-radius: 0.5rem;
     margin: 1rem;
-    background: rgba(100, 100, 100, 0.3);
+    background: rgb(45, 107, 43);
     color: #ffffff;
     font-size: 16px;
     margin-right: 8rem;
@@ -102,4 +103,10 @@
     {
         display: none;
     }   
+}
+@media (min-width: 800px) { 
+    .hide
+    {
+        display: none;
+    } 
 }
