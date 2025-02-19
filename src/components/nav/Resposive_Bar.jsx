@@ -9,10 +9,10 @@ function ResposiveBar({ setShowNavBar })
                 <button onClick={() => setShowNavBar(false)}>&times;</button>
                 </div>
                 <ul>
-                <li >Home</li>
-                <li>News</li>
-                <li>Experiences</li>
-                <li>Questions</li>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/news">News</a></li>
+                <li><a href="experiences">Experiences</a></li>
+                <li><a href="questions">FAQ</a></li>
                 <a className={style.login1} href="#">Log in</a>
                 </ul>
             </div>
