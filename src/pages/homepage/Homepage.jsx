@@ -5,6 +5,7 @@ import styles from "./Homepage.module.css";
 
 import HeroSection from "../../components/hero-section/HeroSection";
 import NewsSection from "../../components/news-section/NewsSection";
+import Footer from "../../components/footer/footer";
 import ExperiencesSection from "../../components/experience-section/ExperiencesSection";
 
 function Homepage() {
@@ -14,6 +15,7 @@ function Homepage() {
 			<HeroSection />
 			<NewsSection />
 			<ExperiencesSection />
+			<Footer></Footer>
 		</main>
 	);
 }
