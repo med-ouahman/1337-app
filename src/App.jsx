@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 
 
 import Homepage from "./pages/homepage/Homepage";
-import Questions from "./pages/questions/Questions";
+import FAQ from "./pages/FAQ/FAQ";
 import News from "./pages/news/News";
 import Experiences from "./pages/experiences/Experiences"; 
 import Login from "./pages/login/Login";
@@ -22,11 +22,6 @@ function App() {
 				/>
 
 				<Route
-					path="/questions"
-					element={<Questions />}
-				/>
-
-				<Route
 					path="/news"
 					element={<News />}
 				/>
@@ -39,6 +34,10 @@ function App() {
 				<Route
 					path="experiences"
 					element={<Experiences />}
+				/>
+				<Route
+					path="/FAQ"
+					element={<FAQ />}
 				/>
 				<Route
 					path="*"

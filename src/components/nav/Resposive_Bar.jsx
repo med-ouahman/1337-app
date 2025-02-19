@@ -11,8 +11,8 @@ function ResposiveBar({ setShowNavBar })
                 <ul>
                 <li><a href="/home">Home</a></li>
                 <li><a href="/news">News</a></li>
-                <li><a href="experiences">Experiences</a></li>
-                <li><a href="questions">FAQ</a></li>
+                <li><a href="/experiences">Experiences</a></li>
+                <li><a href="/FAQ">FAQ</a></li>
                 <a className={style.login1} href="#">Log in</a>
                 </ul>
             </div>

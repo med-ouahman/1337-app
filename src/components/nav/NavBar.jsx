@@ -18,7 +18,7 @@ function NavBar() {
 				<li className={style.sideBar}><a href="/home">Home</a></li>
 				<li className={style.sideBar}><a href="/news">News</a></li>
 				<li className={style.sideBar}><a href="experiences">Experiences</a></li>
-				<li className={style.sideBar}><a href="/questions">FAQ</a></li>
+				<li className={style.sideBar}><a href="/FAQ">FAQ</a></li>
 				<a href="#" className={`${style.sideBar} ${style.login}`} >Log in</a>
 				<FaBars onClick={() => setShowNavBar(true)} className={`${style.faBars} ${style.hide}`}/>
 			</ul>  
