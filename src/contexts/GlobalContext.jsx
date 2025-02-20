@@ -42,7 +42,7 @@ function GlobalContextProvider({ children }) {
   const [experiences, setExperiences] = useState(generateRandomExperiences(5));
   const [user, setUser] = useState({
     name: "Larry",
-    img: "public/cat-5579221.jpg",
+    img: "/cat-5579221.jpg",
   });
 
   return (
