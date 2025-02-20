@@ -219,6 +219,7 @@ form input[type="file"] {
   padding: 1rem 0;
 }
 
+
 .count .sort {
   display: flex;
   align-items: center;
@@ -281,7 +282,7 @@ form input[type="file"] {
 }
 
 
-.comment .seeMore {
+.comments .seeMore {
   align-self: flex-end;
   color: cyan;
   border: 0;
@@ -289,7 +290,7 @@ form input[type="file"] {
   font-size: 1rem;
 }
 
-.comment .seeMore:hover {
+.comments .seeMore:hover {
   color: rgb(16, 129, 173);
 }
 
