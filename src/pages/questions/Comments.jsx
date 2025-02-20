@@ -47,6 +47,11 @@ function Comments({ comments, setComments}) {
      {
       sorted.map(comment => <Comment {...comment} key={comment.id} setComments={setComments} />)
      }
+     <button
+        className={styles.seeMore}
+      >
+        See More
+      </button>
     </div>
   );
 }
@@ -100,11 +105,7 @@ function Comment({ content, likes, disLikes, date, id, setComments }) {
         {disLikes}
       </button>
       </div>
-      <button
-        className={styles.seeMore}
-      >
-        See More
-      </button>
+      
     </div>
   );
 }
