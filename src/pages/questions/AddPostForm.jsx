@@ -55,7 +55,7 @@ function AddPostForm({ setIsFormVisible, setQuestions }) {
       date: new Date().toLocaleTimeString()
     }
     setIsFormVisible(false);
-    setQuestions(questions => [...questions, newPost]);
+    setQuestions(questions => [newPost, ...questions]);
     dispatch({ type: "submit" });
     
   }

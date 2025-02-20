@@ -20,7 +20,7 @@ function FAQ() {
           aria-controls="panel1a-content"
           id="panel1a-header"
           >
-          <h3>why am i here ?</h3>
+          <h3>How do I get started with programming?</h3>
         </AccordionSummary>
         <AccordionDetails>
           <p>
@@ -35,7 +35,7 @@ function FAQ() {
           aria-controls="panel2a-content"
           id="panel2a-header"
           >
-          <h3>why sky is blue?</h3>
+          <h3>What programming language should I learn first?</h3>
         </AccordionSummary>
         <AccordionDetails>
           <p>
@@ -65,7 +65,7 @@ function FAQ() {
           aria-controls="panel3a-content"
           id="panel3a-header"
           >
-          <h3>why cluster are so loud ?</h3>
+          <h3>What are the most important concepts to understand in programming?</h3>
         </AccordionSummary>
         <AccordionDetails>
           <p>
@@ -80,7 +80,7 @@ function FAQ() {
           aria-controls="panel3a-content"
           id="panel3a-header"
           >
-          <h3>im stack , can u help me ?</h3>
+          <h3>How do I improve my coding skills?</h3>
         </AccordionSummary>
         <AccordionDetails>
           <p>
