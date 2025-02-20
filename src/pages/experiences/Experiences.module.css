@@ -1,0 +1,139 @@
+.experiences {
+  width: 100%;
+  min-height: 100vh;
+  background: inherit;
+  padding-top: 3rem;
+}
+
+.experiences .experienceContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+}
+
+.experienceContainer .studentExperience {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, .1), -1px -1px 10px rgba(255, 255, 255, .1);
+}
+
+.aboutStudent p {
+  color: rgba(255, 255, 255, .7);
+}
+
+.aboutStudent h3 {
+  font-size: 1.8rem;
+  color: rgb(9, 165, 238);
+}
+
+.studentExperience .profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.studentExperience:last-child {
+  margin-bottom: 4rem;
+}
+
+.profile p {
+  width: fit-content;
+  font-size: 1.3rem;
+ 
+}
+
+.profile .bio {
+  width: 100%;
+  color: rgb(1, 172, 202);
+}
+
+.timeLine p {
+  
+  font-size: 1rem;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+
+.aboutStudent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+
+.contact {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.contact h3 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.socialLinks {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.socialLinks a {
+  color: rgb(46, 144, 235);
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (max-width:600px) {
+  
+
+  .experiences .experienceContainer {
+    width: 100%;
+  }
+
+  .experienceContainer .studentExperience {
+    width: 90%;
+  }
+
+
+  .studentExperience .contact {
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .contact h3, .contact .socialLinks  {
+    text-align: left;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .contact .socialLinks {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .contact a {
+    text-align: left;
+  }
+}

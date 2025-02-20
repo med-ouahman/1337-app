@@ -18,7 +18,6 @@ function ModalContainer({ isModalVisible, setIsModalVisible }) {
 
 				<div className={styles.contact}>
 					<h3>Contact Larry</h3>
-
 				</div>
 			</div>
 		</div>

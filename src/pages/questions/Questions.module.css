@@ -1,0 +1,327 @@
+.questions {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+
+.formContainer {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, .9);
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.formContainer form {
+  width: 40%;
+  height: 70%;
+  padding: 2rem 0;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  color: #fff;
+  justify-content: flex-start;
+}
+
+.formContainer form input, .formContainer form textarea {
+  width: 100%;
+  height: fit-content;
+  outline: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  background: #332c2c;
+  color: #fff;
+  border: 0;
+}
+
+.formContainer form textarea {
+  min-height: 7rem;
+  outline: 0;
+}
+
+.formContainer form .close {
+  height: fit-content;
+ 
+  width: fit-content;
+  font-size: 2rem;
+  align-self: flex-end;
+  background: transparent;
+}
+
+
+.add {
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+  background: transparent;
+  margin-right: 0;
+  align-self: flex-end;
+  margin-top: 1rem;
+  background: rgb(13, 66, 80);
+}
+
+
+.add:hover {
+  background: rgb(15, 94, 116);
+}
+
+form input[type="file"] {
+  padding-left: 0;
+}
+
+.formContainer form input:focus, .formContainer form textarea:focus {
+  border: 1px solid rgb(27, 185, 190);
+}
+
+
+.header {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  gap: 3rem;
+  border-bottom: 1px solid rgba(11, 124, 124, 0.5);
+}
+
+.header .search {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border: 1px solid rgba(0, 255, 255, 0.671);
+  border-radius: .5rem;
+  padding-right: 1rem;
+}
+
+.search svg {
+  color: rgba(0, 255, 255, 0.671);
+  font-size: 2rem;
+}
+
+.search input {
+  background: transparent;
+  font-size: 1rem;
+  padding-left: .5rem;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  
+  padding: 1rem .5rem 1rem 1rem;
+  
+  width: 80%;
+}
+
+.header button {
+  padding: 1rem 2rem;
+  color: #fff;
+  background: rgb(32, 45, 102);
+  border: 0;
+  font-size: 1rem;
+  border-radius: .5rem;
+}
+
+
+.posts {
+  width: 55%;
+  margin: auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.post {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.post:last-child {
+  border: 0;
+  margin-bottom: 3rem;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.post .addComment {
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  background: #103031;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+}
+
+.addComment textarea {
+  padding-top: .4rem;
+  background: transparent;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.addComment textarea:focus {
+  border: 0;
+}
+
+.questions .addComment .submit {
+  align-self: flex-end;
+  padding: .7rem 1rem;
+  border: 0;
+  color: #fff;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  background: rgb(2, 114, 95);
+}
+
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comments .count {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.count .sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  font-size: 1rem;
+}
+
+.sort select {
+  color: #fff;
+  font-size: 1rem;
+  border: 0;
+  background: transparent;
+}
+
+.comments .comment {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.comment .commentInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.comment p {
+  color: rgba(255, 255, 255, .7);
+}
+
+.commentInfo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.comment .likes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.likes button {
+  background: transparent;
+  border: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+
+.comment .seeMore {
+  align-self: flex-end;
+  color: cyan;
+  border: 0;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.comment .seeMore:hover {
+  color: rgb(16, 129, 173);
+}
+
+
+@media (max-width:800px) {
+  .posts {
+    width: 100%;
+  }
+
+  .header {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .header .search {
+    width: 70%;
+    
+  }
+
+  .header .search input {
+    width: 100%;
+    padding: .7rem;
+ 
+    padding-left: 1rem;
+  }
+
+  .header button {
+    font-size: .9rem;
+    padding: .7rem .5rem;
+  }
+
+  .formContainer form {
+    width: 90%;
+  }
+}

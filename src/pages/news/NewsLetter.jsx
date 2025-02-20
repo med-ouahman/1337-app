@@ -8,7 +8,7 @@ function NewsLetter() {
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		
+		setEmail("");
 	}
 
 	return (

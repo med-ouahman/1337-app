@@ -1,46 +1,22 @@
 
-import { useState } from "react";
 import styles from "./ExperiencesSection.module.css"
 
-import ModalContainer from "./ModalContainer";
-import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
-function ExperienceItem() {
-	const [isModalVisible, setIsModalVisible] = useState(false);
-
-	const showModal = () => {
-		setIsModalVisible(true);
-	}
-
-	useEffect(() => {
-		if (isModalVisible)
-			document.body.style = "overflow: hidden;";
-		else
-			document.body.style = "overflow: scroll;"
-	}, [isModalVisible])
+function ExperienceItem({ img, fullName, id, journy}) {
 	return (
-		<>
-		{
-			isModalVisible
-			&&
-			<ModalContainer
-				isModalVisible={isModalVisible}
-				setIsModalVisible={setIsModalVisible}
-			/>
-		}
-		<div className={styles.experienceItem}>
+		<div className={styles.experienceItem} id={id}>
 			<div className={styles.profile}>
-				<img src="/public/cat-5579221.jpg" alt="Profile img" />
-				<p>Larry The Cat</p>
+				<img src={img} alt="Profile img" />
+				<p>{fullName}</p>
 			</div>
 			<p>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni repellendus maiores voluptate numquam ut tempore sequi? Unde voluptatem aliquid saepe laudantium adipisci. Iure fugit, molestiae velit consequatur eos nam corporis.
+				{journy[0].slice(0, 240)}
 			</p>
-			<button to="/experiences" onClick={showModal}>
+			<NavLink to={`/experiences#${id}`} >
 				See Full Story
-			</button>
+			</NavLink>
 		</div>
-		</>
 	);
 }
 
