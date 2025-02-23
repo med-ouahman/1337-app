@@ -15,9 +15,9 @@ function formatDate(date) {
 function sortBy(comments, sorting) {
 
   if (sorting === "recent")
-    return comments.reverse();
+    return [...comments].reverse();
   if (sorting === "most-liked")
-    return comments.sort((a, b) => a.likes > b.likes);
+    return [...comments].sort((a, b) => a.likes > b.likes);
   return comments;
 }
 
